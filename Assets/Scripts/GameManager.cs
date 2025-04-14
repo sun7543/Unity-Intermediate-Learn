@@ -10,6 +10,7 @@ public class GameManager : Singleton<GameManager>
     public UnityEvent<int> OnMoneyChanged;
 
     private int _money;
+ 
     public int Money
     {
         get => _money;
@@ -27,5 +28,11 @@ public class GameManager : Singleton<GameManager>
             OnMoneyChanged.Invoke(_money);
         }
     }
+    
 
+    [ContextMenu("Debug Money")]
+    public void DebugCurrentMoney()
+    {
+        Debug.Log($"Current Money is {_money}");
+    }
 }
