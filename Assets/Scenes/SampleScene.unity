@@ -1231,6 +1231,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   price: 5
+  rotateSpeed: 90
 --- !u!65 &315651893
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1880,8 +1881,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c907ff05df0b21a41b6981af30277b55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _canvasGroup: {fileID: 375865172}
-  _fadeSpeed: 1
+  _FadeCanvasGroup: {fileID: 375865172}
+  _fadeDuration: 1
 --- !u!1001 &389161264
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3132,6 +3133,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   price: 5
+  rotateSpeed: 90
 --- !u!65 &1041386589
 BoxCollider:
   m_ObjectHideFlags: 0
